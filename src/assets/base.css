@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+::-webkit-scrollbar-track
+{
+	background-color: #fef08a;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #facc15;
+}
+
+body {
+  min-height: 100vh;
+}
